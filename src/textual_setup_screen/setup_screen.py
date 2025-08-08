@@ -1,6 +1,6 @@
 from textual import work
 from textual.screen import Screen
-from textual.app import ComposeResult
+from textual.app import ComposeResult, App
 from textual.containers import VerticalScroll, Vertical
 from textual.widgets import Header, Static, Label, ProgressBar
 
