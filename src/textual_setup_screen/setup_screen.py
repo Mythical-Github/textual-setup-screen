@@ -62,8 +62,7 @@ class SetupScreenProgressBar(Static):
         for widget in self.widgets_to_refresh_on_screen_pop:
             widget.refresh(recompose=True)
         
-        from shoal.main_app import app
-        app.call_from_thread(app.pop_screen)
+        self.app.call_from_thread(self.app.pop_screen)
 
         self.finished_all_steps_function()
 
