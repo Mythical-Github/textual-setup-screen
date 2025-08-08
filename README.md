@@ -30,3 +30,11 @@ def push_install_h1_screen():
         app.push_screen(download_h1_mod_screen)
     else:
         game_runner.run_game()
+```
+
+---
+
+## Adding to Project Example
+```bash
+uv add git+https://github.com/Mythical-Github/textual-setup-screen
+```
